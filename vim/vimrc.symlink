@@ -54,6 +54,9 @@ set cursorline
 " Copy to system clipboard
 set clipboard=unnamed
 
+" Always show status bar
+set laststatus=2
+
 " Relative Numbers
 :set rnu
 function! NumberToggle()
