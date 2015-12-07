@@ -6,6 +6,3 @@ cd .
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
-
-# Use VIM mode
-set -o vi
