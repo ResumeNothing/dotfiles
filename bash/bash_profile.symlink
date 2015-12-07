@@ -13,7 +13,7 @@ if [ -f `brew --prefix`/etc/bash_completion.d/git-prompt.sh ]; then
     . `brew --prefix`/etc/bash_completion.d/git-prompt.sh
 fi
 
-export PATH=/usr/local/bin:$PATH
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 
 HISTFILESIZE=1000000000
 HISTSIZE=1000000
